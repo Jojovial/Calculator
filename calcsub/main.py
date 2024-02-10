@@ -12,3 +12,6 @@ class JoJoCalc(App):
 
     def build(self):
         return MyRoot()
+
+joeycalc = JoJoCalc()
+joeycalc.run()
