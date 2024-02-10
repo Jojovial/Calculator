@@ -8,6 +8,9 @@ class MyRoot(BoxLayout):
     def __init__(self):
         super(MyRoot, self).__init__()
 
+    def calc_symbol(self, symbol):
+        self.calc_field.text += symbol
+
 class JoJoCalc(App):
 
     def build(self):
